@@ -1,0 +1,114 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+/*Header*/
+.header{
+    width: 100%;
+    height: 9vh;
+    position: fixed;
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-width: .8px;
+    border-bottom-color: #9ea0a6;
+    z-index: 100;
+    background-color: white;
+}
+.logo{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 900;
+}
+.menu{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9ea0a6;
+}
+/*Page Content*/
+.content{
+    position: relative;
+    top: 9vh;
+    width: 100%;
+}
+/*Poster*/
+.poster{
+    height: 45vh;
+    width: 100%;
+    background-color: #7e65eb;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-title{
+    color: #fbff9c;
+    font-size: 45px;
+}
+.second-title{
+    color: white;
+}
+.btn{
+    color: white;
+    background-color: transparent;
+    padding: 12px 18px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+}
+/*Cards*/
+.cards-container{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+}
+.cards{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    padding: 30px 0px;
+}
+.card-item{
+    flex:1;
+    margin: 6px 14px;
+    background-color: #fff;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px;
+}
+.icon{
+    width: 100%;
+    flex:2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    flex:1;
+    width: 100%;
+    text-align: center;
+}
+.description{
+    width: 100%;
+    text-align: center;
+    flex: 3;
+    font-size: 14px;
+}
+.sub-title{
+    color: #9ea0a6 ;
+    font-size: 14px;
+}
