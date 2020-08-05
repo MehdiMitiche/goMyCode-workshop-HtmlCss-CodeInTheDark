@@ -53,6 +53,7 @@ body{
 }
 .second-title{
     color: white;
+    font-size: 25px;
 }
 .btn{
     color: white;
@@ -62,6 +63,7 @@ body{
     border-style: solid;
     border-width: 2px;
     border-radius: 15px;
+    cursor: pointer;
 }
 /*Cards*/
 .cards-container{
